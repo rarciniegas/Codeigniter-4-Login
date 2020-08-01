@@ -1,0 +1,69 @@
+CRITICAL - 2020-07-31 19:28:02 --> Invalid file: login.php
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\wamp\www\login\app\Controllers\Users.php(40): view('login')
+#3 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->index()
+#4 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-31 19:51:50 --> Class 'App\Controllers\UserModel' not found
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->register()
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-31 19:53:22 --> Class 'App\Controllers\UserModel' not found
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->register()
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-31 19:54:04 --> Class 'App\Controllers\UserModel' not found
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->register()
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-31 19:57:05 --> Class 'App\Controllers\UserModel' not found
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->register()
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-31 20:00:35 --> Class 'App\Controllers\UserModel' not found
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->register()
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-31 20:34:37 --> validateUser is not a valid rule.
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'dfasdfadsfsad', Array, Array)
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp\www\login\app\Controllers\Users.php(26): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->index()
+#5 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-31 20:34:54 --> validateUser is not a valid rule.
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'dfasdfadsfsad', Array, Array)
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp\www\login\app\Controllers\Users.php(26): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->index()
+#5 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-31 20:35:13 --> validateUser is not a valid rule.
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'password1', Array, Array)
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp\www\login\app\Controllers\Users.php(26): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->index()
+#5 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

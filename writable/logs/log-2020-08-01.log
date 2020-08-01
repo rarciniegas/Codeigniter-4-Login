@@ -1,0 +1,41 @@
+CRITICAL - 2020-08-01 06:56:06 --> Invalid file: profile.php
+#0 C:\wamp\www\login\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\wamp\www\login\app\Controllers\Users.php(140): view('profile')
+#3 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->profile()
+#4 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-01 07:41:20 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-01 07:43:57 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-01 07:51:01 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-01 07:58:46 --> Argument 2 passed to set_value() must be of the type string, null given, called in C:\wamp\www\login\app\Views\users\profile.php on line 17
+#0 C:\wamp\www\login\app\Views\users\profile.php(17): set_value('firstname', NULL)
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\wamp\\www\\log...')
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('users/profile', Array, true)
+#3 C:\wamp\www\login\app\Controllers\Users.php(140): view('users/profile')
+#4 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->profile()
+#5 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-01 08:00:09 --> Argument 2 passed to set_value() must be of the type string, null given, called in C:\wamp\www\login\app\Views\users\profile.php on line 17
+#0 C:\wamp\www\login\app\Views\users\profile.php(17): set_value('firstname', NULL)
+#1 C:\wamp\www\login\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\wamp\\www\\log...')
+#2 C:\wamp\www\login\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('users/profile', Array, true)
+#3 C:\wamp\www\login\app\Controllers\Users.php(140): view('users/profile')
+#4 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Users->profile()
+#5 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\wamp\www\login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-01 08:09:30 --> Declaration of App\Filters\Noauth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
