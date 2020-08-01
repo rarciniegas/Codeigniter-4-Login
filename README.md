@@ -1,3 +1,10 @@
+# CodeIgniter 4 Login
+
+## What is CodeIgniter 4 Login?
+
+This application was build using Codeigniter 4, Bootstrap and MariaDB.
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
